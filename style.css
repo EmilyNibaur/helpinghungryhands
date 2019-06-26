@@ -8,7 +8,7 @@ height: 58px;
 max-width: 980px;
 margin-left: auto;
 margin-right: auto;
-display: block;
+display: inline-block;
 }
 
 
@@ -19,11 +19,13 @@ li{
 
 
 .nav-items{
-    display: block;
+    display: inline-block;
     float: right;
     margin-left: 15px;
     line-height: 58px;
-    
+    padding: 50px;
+    margin: 20px;
+    width: 300px;
 
 }
 
@@ -37,4 +39,10 @@ li{
     text-align: center;
     height: relative;
     display: block;
+}
+
+.logo{
+    box-sizing: border-box;
+    display: list-item;
+    list-style-position: outside;
 }
