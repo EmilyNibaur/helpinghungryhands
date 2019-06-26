@@ -12,3 +12,29 @@ display: block;
 }
 
 
+li{
+    line-height: 24px;
+
+}
+
+
+.nav-items{
+    display: block;
+    float: right;
+    margin-left: 15px;
+    line-height: 58px;
+    
+
+}
+
+
+.upcoming{
+    background-color: black;
+    color: white;
+    font-size: 29px;
+    position: relative;
+    float: bottom;
+    text-align: center;
+    height: relative;
+    display: block;
+}
