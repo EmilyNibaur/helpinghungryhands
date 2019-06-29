@@ -1,48 +1,79 @@
-.nav-bar-section{
-padding-top: 0px;
-padding-right: 20px;
-padding-bottom: 0px;
-padding-left: 20px;
-position: relative;
-height: 58px;
-max-width: 980px;
-margin-left: auto;
-margin-right: auto;
-display: inline-block;
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
 }
 
 
-li{
-    line-height: 24px;
-
+.nav-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
 }
 
 
-.nav-items{
-    display: inline-block;
-    float: right;
-    margin-left: 15px;
-    line-height: 58px;
-    padding: 50px;
-    margin: 20px;
-    width: 300px;
-
-}
-
-
-.upcoming{
-    background-color: black;
-    color: white;
-    font-size: 29px;
-    position: relative;
-    float: bottom;
-    text-align: center;
-    height: relative;
+div{
     display: block;
 }
 
-.logo{
-    box-sizing: border-box;
-    display: list-item;
-    list-style-position: outside;
+
+.pre-header{
+    position: relative;
+    z-index: 100000;
+    width: 100%;
+    height: auto;
+    padding: .25rem 0;
+    background-color: white;
+}
+
+.pre-header .float{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.site-header{
+    z-index: 9999;
+    background color: white;
+    position: relative;
+    min height: 52px;
+}
+
+.site-header_logo{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    float: left;
+}
+
+.site-header_logo a{
+    height: 39px;
+    display: block;
+
+}
+
+.site-header_rightside{
+    float: right;
+
+}
+
+.site-header_main-nav{
+    display: block;
+    float: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    list-style-type: none;
 }
